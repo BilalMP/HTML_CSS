@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+
+<body>
+    <form oninput="sum.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="number" name="a" value="4">
+        +
+        <input type="number" name="b" value="5">
+        =
+        <output name="sum">9</output>
+    </form>
+    <form oninput="sum.value = parseInt(a.value) - parseInt(b.value)">
+        <input type="number" name="a" value="5">
+        -
+        <input type="number" name="b" value="2">
+        =
+        <output name="sum">3</output>
+    </form>
+    <form oninput="sum.value = parseInt(a.value) * parseInt(b.value)">
+        <input type="number" name="a" value="4">
+        *
+        <input type="number" name="b" value="5">
+        =
+        <output name="sum">20</output>
+    </form>
+    <form oninput="sum.value = parseInt(a.value) / parseInt(b.value)">
+        <input type="number" name="a" value="20">
+        /
+        <input type="number" name="b" value="5">
+        =
+        <output name="sum">4</output>
+    </form>
+</body>
+
+</html>
